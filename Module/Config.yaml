@@ -1,0 +1,212 @@
+############### Original Census Data File #############
+Original Census:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 7
+      weights: uniform
+      algorithm: auto
+
+    RandomForest parameters:
+      n_estimators: 100
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+
+SDV Census:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 5
+      weights: uniform
+      algorithm: auto
+      
+    RandomForest parameters:
+      n_estimators: 100
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+
+Data Synthesizer Census:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 3
+      weights: uniform
+      algorithm: auto
+      
+    RandomForest parameters:
+      n_estimators: 100
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+
+Synthpop Census:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 3
+      weights: uniform
+      algorithm: auto
+      
+    RandomForest parameters:
+      n_estimators: 100
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+
+Original Forest:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 9
+      weights: uniform
+      algorithm: auto
+
+    RandomForest parameters:
+      n_estimators: 100
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+SDV Forest:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 5
+      weights: uniform
+      algorithm: auto
+      
+    RandomForest parameters:
+      n_estimators: 40
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+
+Data Synthesizer Forest:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 7
+      weights: uniform
+      algorithm: auto
+      
+    RandomForest parameters:
+      n_estimators: 100
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+
+Synthpop Forest:
+  Parameters:
+    kNN parameters:
+      n_neighbors: 7
+      weights: uniform
+      algorithm: auto
+      
+    RandomForest parameters:
+      n_estimators: 100
+      criterion: gini
+
+    SVM parameters:
+      C: 1.0
+      kernel: rbf
+      degree: 3
+      gamma: scale
+
+    LogisticRegression parameters:
+      penalty: l2
+      dual: False
+      C: 1.0
+      fit_intercept: True
+      intercept_scaling: 1
+      class_weight: None
+
+SDV:
+  model: GaussianCopula
+  sample: 199523
+DS:
+  mode: correlated
+  epsilon: 1
+  num_tuples_to_generate: 199523
+  value_of_K: 1
+#Synthpop:
+method: cart
+
+  
